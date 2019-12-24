@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "smresize"
+version = "0.1.0"
+description = ""
+authors = ["Raj Perera <rajiteh@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+Pillow = "^6.2"
+invoke = "^1.3"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.4"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
